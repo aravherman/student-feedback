@@ -20,6 +20,6 @@ A simple Java web application that allows students to securely log in and submit
 ## 📁 Folder Structure
 WEB-INF/ # Java source files (Servlets)
 
-# HTML, CSS, web.xml
+HTML, CSS, web.xml
 
 SQL/schema.sql # MySQL table creation
