@@ -1,0 +1,56 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-items: center;
+    /* background-color: black; */
+}
+h1{
+    text-align: center;
+    color: black;
+}
+.frame{
+    border:5px solid black;
+    border-radius: 15px;
+    height: 530px;
+    width: 350px;
+    margin: auto;
+    margin-top: -10px;
+}
+.cred{
+    display: block;
+    margin: 10px auto;
+    border-radius: 5px;
+    padding: 5px;
+    border: 5px solid #034934;
+    width: 200px;
+}
+p{
+    text-align: center;
+    font-size: large;
+}   
+.creden{
+    margin-top: -1rem;
+}
+.login{
+    background-color: #10d89c;
+    padding: 5.5rem;
+    border-radius: 12px;
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 67%;
+}
+input[type="submit"]{
+    display: block;
+    width: 100px;
+    height: 2em;
+    font-size: 1em;
+    border-radius: 9px;
+    border: 3px solid #034934;
+    background-color: #067844;
+    color: whitesmoke;
+}
+.submit:hover{
+     box-shadow: 7px 5px 56px -6px #0c4932;
+     border-radius: 9px;
+}

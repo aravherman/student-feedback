@@ -1,0 +1,29 @@
+<web-app>
+    <!-- student db -->
+    <servlet>
+        <servlet-name>studentdb</servlet-name>
+        <servlet-class>studentdb</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>studentdb</servlet-name>
+        <url-pattern>/studentdb</url-pattern>
+    </servlet-mapping>
+    <!--  Feedback Servlet  -->
+    <servlet>
+        <servlet-name>feedbackservlet</servlet-name>
+        <servlet-class>feedbackservlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>feedbackservlet</servlet-name>
+        <url-pattern>/feedbackservlet</url-pattern>
+    </servlet-mapping>
+    <!--  logout Servlet  -->
+    <servlet>
+        <servlet-name>lgservlet</servlet-name>
+        <servlet-class>lgservlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>lgservlet</servlet-name>
+        <url-pattern>/lgservlet</url-pattern>
+    </servlet-mapping>
+</web-app>

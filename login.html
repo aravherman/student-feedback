@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css"/>
+    <title>Student Login</title>
+</head>
+<body>
+    <h1>
+        Enter your credentials
+    </h1>
+    <div class="frame">
+        <form class="login" action="studentdb" method="post">
+            <label>
+                <div class="creden">
+                    <p><b>Enter your Enrollment no.: </b></p><input required type="number" name="enroll" min = "1" max="99999999999999" class="cred">
+                    <p><b>Enter your password: </b></p><input required type="password" name="pass" class="cred">
+                </div>
+            </label>
+            <label class="follow">
+                <div class="submit">
+                    <input type="submit" value="Login" id="1">
+                </div>
+            </label>
+        </form>
+    </div>
+</body>
+</html>
