@@ -17,6 +17,9 @@ A simple Java web application that allows students to securely log in and submit
 - MySQL
 - Apache Tomcat
 
+[🎬 Download Demo Video](./assets/demo.mp4)
+
+
 ## 📁 Folder Structure
 WEB-INF/ # Java source files (Servlets)
 
