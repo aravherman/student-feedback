@@ -19,7 +19,7 @@ A simple Java web application that allows students to securely log in and submit
 
 [🎬 Download Demo Video](./assets/demo.mp4)
 Changes in feedback table in MySQL after submitting form
-![Feedback Form](./assets/feedback-form.png)
+![Feedback Form](./assets/feedback.png)
 
 ## 📁 Folder Structure
 WEB-INF/ # Java source files (Servlets)
