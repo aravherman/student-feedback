@@ -22,4 +22,4 @@ WEB-INF/ # Java source files (Servlets)
 
 HTML, CSS, web.xml
 
-SQL/schema.sql # MySQL table creation
+SQL / schema.sql # MySQL table creation
